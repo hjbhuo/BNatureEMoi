@@ -31,6 +31,10 @@ section.top-page {
     height: 80vh;
     padding: 25px;
 }
+.all-plants a {
+    text-decoration: none;
+    color: black !important;
+}
 
 /* page de bienvenue (landing page) */
 
@@ -155,7 +159,7 @@ nav.nav li a {
     width: 100%;
     bottom: 0;
     background-color: #FFFFFFDF;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .plant-name {
@@ -169,6 +173,7 @@ nav.nav li a {
     line-height: 3px;
     font-size: 14px;
     font-weight: 800;
+    margin: 0;
 }
 
 /* nos plantes */
@@ -181,7 +186,6 @@ nav.nav li a {
     display: grid;
     min-height: 150vh;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 400px);
 }
 
 .plant-grid1 {
@@ -231,4 +235,27 @@ footer {
 footer a.cgv {
     text-decoration: none;
     color: black;
+}
+
+.user{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.user .login{
+    text-decoration: none;
+    color: white;
+    background-color: #ADD981;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.user .register{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
 }
